@@ -54,5 +54,5 @@ Para testar o projeto no EdSim51, deve-se carregar o código Assembly e iniciar 
 
 
 
-%% Conclusão
+## Conclusão
 Com esse projeto, foi possível implementar um sistema simples de dosagem rotativa utilizando recursos importantes do microcontrolador 8051. O Timer 1 foi usado como contador externo para contar os pulsos gerados pelo motor, enquanto a interrupção foi responsável por reiniciar automaticamente a contagem ao atingir 10 voltas. Por fim, também foi implementada a mudança de direção do motor por meio de uma chave, com reinício da contagem sempre que o sentido é alterado. Além disso, o display de 7 segmentos permite acompanhar a contagem em tempo real, e o ponto decimal serve como indicação visual do sentido de rotação. 
